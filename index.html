@@ -12,30 +12,13 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">PIG DICE</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">PLAYER 1</a></li>
-        <li><a href="#">PLAYER 2</a></li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-    </div>
-  </nav>
-
   <div class="jumbotron">
     <div class="row text-centered">
       <div class="col-md-12">
-        <h1 id="play1">PLAYER 1</h1>
-        <h1 id="play2">PLAYER 2</h1>
+        <a href="#"></a>
+        <h1 id="play1">PLAYER 1</h1></a>
+        <a href="#"></a>
+        <h1 id="play2">PLAYER 2</h1></a>
       </div>
     </div>
   </div>
@@ -45,12 +28,12 @@
     <p id="how2play">Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
     <div class="buttons">
       <div class="row">
-        <div class="btn-group-vertical">
+        <div id="buttonclass1">
           <button type="button" class="btn btn-primary">ROLL</button>
           <button type="button" class="btn btn-primary">HOLD</button>
           <button type="button" class="btn btn-primary">QUIT</button>
         </div>
-        <div class="btn-group-vertical" stye="float: right">
+        <div id="buttonclass2">
           <button type="button" class="btn btn-primary">ROLL</button>
           <button type="button" class="btn btn-primary">HOLD</button>
           <button type="button" class="btn btn-primary">QUIT</button>
@@ -58,10 +41,10 @@
       </div>
     </div>
     <table class="table">
-      <thead id="table-title">
+      <thead>
         <tr>
-          <th>PLAYER 1</th>
-          <th>PLAYER 2</th>
+          <th id="table-title1">SCORES <br>Player 1</th>
+          <th id="table-title2">SCORES <br>Player 2</th>
         </tr>
       </thead>
       <tbody>
