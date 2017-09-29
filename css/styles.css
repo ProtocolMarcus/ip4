@@ -4,22 +4,43 @@
 
 #play1 {
   color: blue;
-  font-size: 20px;
+  font-size: 40px;
   border-bottom: 2px solid;
   float: left;
-  margin-left: 70px;
+  margin-left: 150px;
 }
 
 #play2 {
   color: red;
-  font-size: 20px;
+  font-size: 40px;
   border-bottom: 2px solid;
   float: right;
-  margin-right: 70px;
+  margin-right: 150px;
 }
 
-.table {
+.container {
   padding-left: 200px;
   padding-right: 200px;
   text-align: center;
+}
+
+#table-title {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#how2play {
+  text-align: center;
+  font-size: 15px;
+}
+
+.btn-group-vertical {
+  float: left;
+}
+
+.buttons {
+  float: left;
 }
