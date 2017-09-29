@@ -1,0 +1,17 @@
+.jombotron {
+  background-color: black;
+}
+
+#play1 {
+  color: blue;
+  font-size: 20px;
+  border-bottom: 2px solid;
+  float: left;
+}
+
+#play2 {
+  color: red;
+  font-size: 20px;
+  border-bottom: 2px solid;
+  float: right;
+}
