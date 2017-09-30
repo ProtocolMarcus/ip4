@@ -41,9 +41,10 @@ h2 {
 }
 
 #how2play {
-  text-align: center;
+  text-align: left;
   font-size: 15px;
   padding-bottom: 50px;
+  font-style: italic;
 }
 
 .btn-group-vertical {
@@ -57,6 +58,11 @@ h2 {
 
 .btn-primary {
   padding: 20px;
+  background-color: red;
+}
+
+.btn-primary:hover {
+  background-color: gray;
 }
 
 #buttonclass1 {
